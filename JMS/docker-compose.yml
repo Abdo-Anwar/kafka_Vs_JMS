@@ -1,0 +1,18 @@
+version: '3'
+services:
+  artemis:
+    image: apache/activemq-artemis:latest
+    container_name: artemis
+    environment:
+      - ARTEMIS_USER=admin
+      - ARTEMIS_PASSWORD=admin
+      - ANONYMOUS_LOGIN=false
+    ports:
+      - "61616:61616" # JMS Port
+      - "8161:8161"   # Web Console Port
+    volumes:
+      - artemis_data:/var/lib/artemis/data
+volumes:
+  artemis_data:
+
+  
