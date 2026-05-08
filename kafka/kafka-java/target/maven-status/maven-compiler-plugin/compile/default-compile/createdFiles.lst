@@ -1,2 +1,6 @@
-com/lab/kafka/LabProducer.class
+com/lab/kafka/ConcurrentLatencyTest$ProducerThread.class
+com/lab/kafka/ConcurrentLatencyTest$ConsumerThread.class
 com/lab/kafka/LabConsumer.class
+com/lab/kafka/ConcurrentLatencyTest.class
+com/lab/kafka/ThroughputTest.class
+com/lab/kafka/LabProducer.class

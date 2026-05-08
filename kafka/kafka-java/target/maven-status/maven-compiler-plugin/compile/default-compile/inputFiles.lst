@@ -1,2 +1,4 @@
-/home/khaled/Downloads/kafka/kafka-java/src/main/java/com/lab/kafka/LabConsumer.java
-/home/khaled/Downloads/kafka/kafka-java/src/main/java/com/lab/kafka/LabProducer.java
+/workspace/src/main/java/com/lab/kafka/ConcurrentLatencyTest.java
+/workspace/src/main/java/com/lab/kafka/LabConsumer.java
+/workspace/src/main/java/com/lab/kafka/LabProducer.java
+/workspace/src/main/java/com/lab/kafka/ThroughputTest.java
